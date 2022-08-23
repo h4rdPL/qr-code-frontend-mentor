@@ -8,4 +8,12 @@ body {
     font-family: $font;
     height: 100vh;
     background-color: $lightGray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img {
+    width: 100%;
 }
