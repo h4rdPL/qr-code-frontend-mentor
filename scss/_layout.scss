@@ -6,17 +6,24 @@
     margin: auto 20px;
     padding: 15px;
     text-align: center;
-    height: 80vh;
-    grid-gap: 1rem;
+    min-height: 80vh;
     font-size: $fontSize;
+    @media (min-width:400px) {
+        width: 330px;
+        min-height: 45vh;    
+    }
 }
 
 .img {
     border-radius: 15px;
+    height: 300px;
 }
 
-.content {
+.content { 
     padding:0 18px;
+    &__header {
+        margin-top: 1rem;
+    }
     &__paragraph {
         margin-top: 1.5rem;
         color: $grayishBlue;

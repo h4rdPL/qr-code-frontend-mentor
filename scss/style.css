@@ -38,17 +38,28 @@ img {
   margin: auto 20px;
   padding: 15px;
   text-align: center;
-  height: 80vh;
-  grid-gap: 1rem;
+  min-height: 80vh;
   font-size: 15px;
+}
+
+@media (min-width: 400px) {
+  .qr {
+    width: 330px;
+    min-height: 45vh;
+  }
 }
 
 .img {
   border-radius: 15px;
+  height: 300px;
 }
 
 .content {
   padding: 0 18px;
+}
+
+.content__header {
+  margin-top: 1rem;
 }
 
 .content__paragraph {
